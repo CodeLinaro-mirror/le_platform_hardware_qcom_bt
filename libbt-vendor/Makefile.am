@@ -9,7 +9,6 @@ AM_CFLAGS = -Wall \
         -DBT_NV_SUPPORT
 
 AM_CPPFLAGS = -Iinclude \
-        -I${WORKSPACE}/system/bt/hci/include \
         -DBT_NV_SUPPORT
 
 if MDM_ROME
